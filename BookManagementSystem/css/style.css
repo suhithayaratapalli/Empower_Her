@@ -1,0 +1,40 @@
+body {
+  font-family: Arial;
+  text-align: center;
+  padding: 20px;
+}
+
+.nav-btn {
+  padding: 8px 14px;
+  margin: 10px;
+}
+
+.form-box {
+  margin: 20px auto;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+input, select, button {
+  padding: 6px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 15px;
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.card {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+  background: white;
+}
+
+.card img {
+  width: 100%;
+}

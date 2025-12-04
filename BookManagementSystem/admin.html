@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Admin Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <button onclick="location.href='index.html'" class="nav-btn">Home</button>
+
+  <h2>Book Management Page</h2>
+
+  <div class="form-box">
+    <input id="title" placeholder="Title">
+    <input id="author" placeholder="Author">
+
+    <select id="category">
+      <option>Fiction</option>
+      <option>Comedy</option>
+      <option>Technical</option>
+    </select>
+
+    <button id="addBtn">Add Book</button>
+  </div>
+
+  <div class="options">
+    <button id="sortBtn">Sort A → Z</button>
+
+    <select id="filter">
+      <option value="All">All</option>
+      <option value="Fiction">Fiction</option>
+      <option value="Comedy">Comedy</option>
+      <option value="Technical">Technical</option>
+    </select>
+  </div>
+
+  <h3>Books</h3>
+
+  <div id="books" class="grid"></div>
+
+  <script src="app.js"></script>
+</body>
+</html>
