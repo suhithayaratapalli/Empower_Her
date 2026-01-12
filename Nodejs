@@ -1,0 +1,52 @@
+Q1. Role of Frontend (FE)
+Frontend is the visible part of a web application that users interact with directly.
+User Interface:
+Frontend is responsible for designing and displaying the UI using HTML, CSS, and JavaScript. It includes layouts, buttons, forms, colors, and responsiveness so the application looks good on all devices.
+User Interaction:
+It handles user actions such as clicks, typing, scrolling, and form submissions. JavaScript ensures smooth interaction, validations, and dynamic updates without reloading the page.
+Communication with Backend:
+Frontend sends requests to the backend (via APIs) and displays the received data to the user. It acts as a bridge between users and server logic.
+
+Q2. Role of Backend (BE)
+Backend is the engine of a web application, working behind the scenes.
+Server-Side Processing:
+It processes requests from the frontend, applies logic, and generates responses.
+Database Handling:
+Backend stores, retrieves, updates, and deletes data from databases like MySQL, MongoDB, or PostgreSQL.
+Security and Authentication:
+It manages login, authorization, encryption, and ensures data privacy and secure access.
+
+Q3. Business Logic
+Business logic is the set of rules that define how an application works according to business requirements.
+Examples:
+1.	E-commerce: Applying discounts, tax calculation, and order validation.
+2.	Banking App: Minimum balance checks and interest calculation.
+3.	Air Quality System: Deciding pollution levels (Good, Moderate, Poor) based on sensor values.
+Business logic ensures correctness, consistency, and fairness.
+
+Q4. Client–Server Model
+The Client–Server Model is a system where tasks are divided between requesters and providers.
+Client: Browser or mobile app used by the user.
+Server: A system that processes requests and sends responses.
+Communication: Happens through HTTP/HTTPS using request–response cycles
+
+
+Q5. Three-Tier Architecture
+3-Tier Architecture divides a web app into layers for clarity and scalability.
+Presentation Layer: User interface (Frontend).
+Application Layer: Business logic and processing (Backend).
+Data Layer: Database and data storage.
+Why used:
+It improves maintainability, scalability, security, and teamwork.
+
+Q6. JavaScript as a Backend Language
+JavaScript is widely used on the backend due to its efficiency.
+Performance:
+Node.js uses non-blocking I/O, making it fast and scalable.
+Ecosystem:
+NPM offers thousands of libraries and tools.
+Popular Frameworks:
+Express.js, NestJS, and Fastify.
+Using JavaScript on both frontend and backend simplifies development and improves productivity.
+
+
